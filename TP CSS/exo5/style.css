@@ -1,0 +1,94 @@
+body {
+    padding: 50px;
+}
+
+.all-carres {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    flex-direction: row;
+    width: 650px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 200px;
+}
+
+.top-right {
+    padding-top: 25px;
+    padding-right: 25px;
+    width: 200px;
+}
+
+.bottom-left {
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.bottom-right {
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.carre1 {
+    height: 200px;
+    background-color: coral;
+    width: 200px;
+}
+
+.carre2  {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.carre3 {
+    background-color: rgb(255, 0, 140);
+    width: 200px;
+    height: 200px;
+}
+
+.container-carre {
+    display: flex;
+    flex-wrap: wrap;
+    height: 275px;
+    width: 275px;
+    background-color: blue;
+    margin: 10px;
+    
+}
+
+.container-carre.top-left {
+    justify-content: flex-start;
+}
+
+.container-carre.top-right {
+    justify-content: flex-end;
+}
+
+/*
+.carre1.top-left {
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.carre1.top-right {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.carre1.bottom-left {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.carre1.bottom-right {
+    margin-top: 25px;
+    margin-right: 25px;
+}
+*/

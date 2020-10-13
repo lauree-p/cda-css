@@ -1,0 +1,94 @@
+*:not(html) {
+    border: 3px solid #527491;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 40px;
+    width: 550px;
+}
+
+header {
+    padding: 10px;
+    background-color: #D3DBE1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    height: 110px;
+}
+
+#bloc-page {
+    padding: 18px 10px;
+    background-color: #C1E2B1;
+}
+
+#titre-principale {
+    background-color: #ADB8CB;
+    width: 120px;
+}
+
+nav {
+    background-color: #FBE5D6;
+    height: 30px;
+    align-self: flex-end;
+    width: 55%;
+}
+
+#banniere-image {
+    background-color: #43B1F1;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    height: 100px;
+}
+
+section {
+    background-color: #FDF851;
+    padding: 16px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 280px;
+}
+
+article {
+    background-color: #F4B184;
+    width: 60%;
+}
+
+aside {
+    background-color: #91D04F;
+    width: 36%;
+    height: 70%;
+}
+
+footer {
+    background-color: #50AF44;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+#tweet {
+    background-color: #9DC3E7;
+    width: 35%;
+}
+
+#mes-photos {
+    background-color: #F8C045;
+    width: 35%;
+    margin: 0px 20px;
+}
+
+#mes-amis {
+    background-color: #A7A6A4;
+    width: 35%;
+}
