@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .row {
+            background-color: rgb(190, 166, 178);
+            display: flex;
+            flex-direction: row;
+            width: fit-content;
+            margin-bottom: 10px;
+        }
+
+        .row > * {
+            background-color: rgb(146, 84, 115);
+            border: 1px solid black;
+            width: 360px;
+            height: 360px;
+        }
+
+        .container div {
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+        }
+
+        .top-right {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .top-left div {
+            transform: translate(20px, 20px);
+        }
+
+        .top-right div {
+            transform: translate(20px, 20px);
+        }
+
+        .bottom-left div {
+            transform: translate(20px, 20px);
+        }
+
+        .bottom-right div {
+            transform: translate(20px, 20px);
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="container top-left">
+            <div class=" yellow">
+                <div class=" blue">
+                    <div class=" green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container top-right">
+            <div class="yellow">
+                <div class="blue">
+                    <div class="green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="container bottom-left">
+            <div class=" yellow">
+                <div class=" blue">
+                    <div class=" green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bottom-right">
+            <div class=" yellow">
+                <div class=" blue">
+                    <div class=" green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
