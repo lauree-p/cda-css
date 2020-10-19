@@ -13,11 +13,11 @@ body  {
     margin-top: 50px;
 }
 
-body DIV.m_bloc {
+article {
     box-sizing: content-box
 }
 
-.m_bloc {
+article {
     position: relative;
     width: 380px;
     text-align: center;
@@ -27,8 +27,8 @@ body DIV.m_bloc {
     overflow: hidden
 }
 
-.m_bloc a,
-.m_bloc a:hover {
+article a,
+article a:hover {
     text-decoration: none
 }
 
@@ -36,7 +36,7 @@ a {
     color: #ff6f61;
 }
 
-.m_image_bloc {
+.container-image {
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -44,22 +44,22 @@ a {
     -ms-user-select: none;
     width: 380px;
     height: 300px;
-    background-color: #303030;
+    background-color: #e2e2e2;
     position: relative;
 }
 
-.m_contenu_bloc-wrapper {
+.container-contains {
     position: relative
 }
 
-.m_contenu_bloc-wrapper .icon-icon_heart,
-.m_contenu_bloc-wrapper .icon-icon_heart_pressed {
+.container-contains .icon-icon_heart,
+.container-contains .icon-icon_heart_pressed {
     display: block;
     margin-top: 9px;
     font-size: 33px
 }
 
-.m_contenu_bloc__circle {
+.container-circle {
     position: absolute;
     top: -30px;
     left: 50%;
@@ -76,8 +76,8 @@ a {
     border-radius: 50%
 }
 
-.m_contenu_bloc__circle::before,
-.m_contenu_bloc__circle::after {
+.container-circle::before,
+.container-circle::after {
     content: '';
     position: absolute;
     z-index: 3;
@@ -89,13 +89,13 @@ a {
     background: radial-gradient(circle at top left, transparent 18px, #fff 19px)
 }
 
-.m_contenu_bloc__circle::after {
+.container-circle::after {
     left: auto;
     right: -14px;
     background: radial-gradient(circle at top right, transparent 18px, #fff 19px)
 }
 
-.m_contenu_bloc__circle {
+.container-circle {
     position: absolute;
     top: -30px;
     left: 50%;
@@ -112,8 +112,8 @@ a {
     border-radius: 50%
 }
 
-.m_contenu_bloc__circle::before,
-.m_contenu_bloc__circle::after {
+.container-circle::before,
+.container-circle::after {
     content: '';
     position: absolute;
     z-index: 3;
@@ -125,13 +125,13 @@ a {
     background: radial-gradient(circle at top left, transparent 18px, #fff 19px)
 }
 
-.m_contenu_bloc__circle::after {
+.container-circle::after {
     left: auto;
     right: -14px;
     background: radial-gradient(circle at top right, transparent 18px, #fff 19px)
 }
 
-.m_contenu_bloc__icon {
+.container-icon {
     position: absolute;
     left: 50%;
     top: -29px;
@@ -145,8 +145,8 @@ a {
     font-size: 33px
 }
 
-.m_contenu_bloc-wrapper .icon-icon_heart,
-.m_contenu_bloc-wrapper .icon-icon_heart_pressed {
+.container-contains .icon-icon_heart,
+.container-contains .icon-icon_heart_pressed {
     display: block;
     margin-top: 9px;
     font-size: 33px
@@ -161,7 +161,7 @@ a {
     font-weight: 200;
 }
 
-.m_type_bloc {
+.label-day-recipe {
     position: absolute;
     top: 30px;
     right: 0;
@@ -178,11 +178,11 @@ a {
     border-radius: 100px 0 0 100px;
 }
 
-.m_contenu_bloc {
+.contains-bloc {
     padding-top: 10px;
 }
 
-.m_titre_bloc {
+.article-title {
     font-family: 'Filson Soft', sans-serif;
     color: black;
     padding: 5px 20px;
